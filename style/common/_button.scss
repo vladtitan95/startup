@@ -1,5 +1,5 @@
 .button-burger{
-  display: none;
+ display: none;
 }
 .button{
   font-size: 11px;
@@ -13,4 +13,56 @@
   cursor: pointer;
   transition: 0.3s;
   box-sizing: border-box;
+}
+
+
+@media (max-width:549px) {
+  .button-burger{
+    display:inline-block;
+    position: relative;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    border: none;
+    margin: 12px 0 12px 0;
+    cursor: pointer;
+    transition: 0.3s;
+    &:before{
+      position: absolute;
+      content: '';
+      width: 30px;
+      height: 2px;
+      background-color: #fff;
+      top: -10px;
+      left: 0;
+      border: none;
+    }
+    &:after{
+      position: absolute;
+      content: '';
+      width: 30px;
+      height: 2px;
+      background-color: #fff;
+      top: 10px;
+      left: 0;
+    }
+    &__active {
+      top: 64px ;
+      right: 20px;
+      position: fixed;
+      transform: rotate(-45deg);
+    }
+    &__active:before {
+      position: fixed;
+      top: 0;
+      transform: rotate(90deg);
+    }
+
+    &__active:after {
+      display: none;
+    }
+
+  }
+
+
 }
