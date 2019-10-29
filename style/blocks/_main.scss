@@ -1,0 +1,44 @@
+.main{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ margin: 25px 0 25px 0;
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__item{
+    margin: 0 20px 0 20px;
+  }
+  &__link{
+    color: #27282C;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  &__block{
+    display: flex;
+    align-items: center;
+  }
+  &__form{
+    border: 1px solid #707070;
+    padding: 7px 8px 7px 8px;
+    border-radius: 25px;
+  }
+  &__input{
+    border: none;
+    padding: 0 70px 0 26px;
+  }
+  &__lable{
+    color: #111;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 23px;
+  }
+  &__button{
+    background-color: #111;
+    color: #fff;
+  }
+
+}
