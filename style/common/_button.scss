@@ -47,10 +47,12 @@
       left: 0;
     }
     &__active {
+      z-index: 2;
       top: 64px ;
       right: 20px;
       position: fixed;
       transform: rotate(-45deg);
+      transition: 0.3s;
     }
     &__active:before {
       position: fixed;

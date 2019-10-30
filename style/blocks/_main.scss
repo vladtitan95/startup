@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
  margin: 25px 0 25px 0;
   &__list{
@@ -10,6 +11,7 @@
   }
   &__item{
     margin: 0 20px 0 20px;
+
   }
   &__link{
     color: #27282C;
@@ -23,8 +25,11 @@
   }
   &__form{
     border: 1px solid #707070;
-    padding: 7px 8px 7px 8px;
+    padding: 0 8px 0 8px;
     border-radius: 25px;
+    height: 52px;
+    display: flex;
+    align-items: center;
   }
   &__input{
     border: none;
@@ -39,6 +44,45 @@
   &__button{
     background-color: #111;
     color: #fff;
+  }
+
+}
+@media (max-width: 924px) {
+  .main{
+    &__item{
+      margin:0;
+      width: 50%;
+      text-align: center;
+      margin-top: 15px;
+
+    }
+  }
+
+}
+@media (max-width: 924px) {
+  .main{
+    justify-content: center;
+    &__block{
+      margin-top: 15px;
+    }
+  }
+}
+@media (max-width: 520px) {
+  .main{
+    &__lable{
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+      margin-right: 0;
+    }
+    &__input{
+      padding: 0 0 0 25px;
+    }
+    &__block{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
   }
 
 }
