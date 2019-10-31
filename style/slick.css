@@ -47,32 +47,15 @@
 }
 
 
-#slick-slide-control00{
+#slick-slide-control0{
     width: 18px;
     height: 10px;
-    font-size: 0;
+    font-size: 40px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
 }
-li.slick-active #slick-slide-control00{
-    width: 30px;
-    height: 10px;
-    font-size: 0;
-    border-radius: 5px;
-    border: none;
-    background-color: #FFC62B;
-
-}
-#slick-slide-control01{
-    width: 18px;
-    height: 10px;
-    font-size: 0;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-}
-li.slick-active #slick-slide-control01{
+li.slick-active #slick-slide-control0{
     width: 30px;
     height: 10px;
     font-size: 0;
@@ -82,15 +65,7 @@ li.slick-active #slick-slide-control01{
 
 }
 
-#slick-slide-control02{
-    width: 18px;
-    height: 10px;
-    font-size: 0;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-}
- li.slick-active #slick-slide-control02{
+li.slick-active #slick-slide-control1{
     width: 30px;
     height: 10px;
     font-size: 0;
@@ -100,7 +75,7 @@ li.slick-active #slick-slide-control01{
 
 }
 
-#slick-slide-control03{
+#slick-slide-control2{
     width: 18px;
     height: 10px;
     font-size: 0;
@@ -108,7 +83,25 @@ li.slick-active #slick-slide-control01{
     border: none;
     cursor: pointer;
 }
-li.slick-active #slick-slide-control03{
+ li.slick-active #slick-slide-control2{
+    width: 30px;
+    height: 10px;
+    font-size: 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFC62B;
+
+}
+
+#slick-slide-control3{
+    width: 18px;
+    height: 10px;
+    font-size: 0;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+li.slick-active #slick-slide-control3{
     width: 30px;
     height: 10px;
     font-size: 0;
@@ -119,13 +112,27 @@ li.slick-active #slick-slide-control03{
 
 }
 .slick-dots{
-    display: none;
+    display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 115px;
+    margin-top: 27px;
 }
-.slick-dots li{
-    width: 30px;
+
+.slick-dots li {
+    margin: 0 5px 0 5px ;
+}
+.slick-dots li button{
+    width: 10px;
+    height: 10px ;
+    font-size: 0;
+    border-radius: 100%;
+    border: 1px solid #D5D5D6;
+    background-color: #fff;
+    padding: 0;
+
+}
+.slick-dots li.slick-active button{
+    background-color: black;
 }
 .presentation{
     width: 30px;

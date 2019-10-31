@@ -19,6 +19,21 @@
   transform: translateY(-50%);
   right: -87px;
 }
+.slick-prev-new.slick-arrow{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  z-index: -1;
+  opacity: 0;
+}
+.slick-next-new.slick-arrow{
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  z-index: -1;
+  opacity: 0;
+}
+
 @media (max-width: 950px) {
   .rapture__slider {
     width: 654px;
@@ -49,6 +64,7 @@
     right: -87px;
   }
 }
+
 @media (max-width: 850px) {
   .rapture__slider {
     width: 454px;
