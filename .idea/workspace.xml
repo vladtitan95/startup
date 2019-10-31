@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac852534-6f9f-4df8-b541-e1150fe08f6b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/style/blocks/_transform.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/script/slider.js" afterPath="$PROJECT_DIR$/script/slider.js" />
-      <change beforePath="$PROJECT_DIR$/style/blocks/_header.scss" afterPath="$PROJECT_DIR$/style/blocks/_header.scss" />
-      <change beforePath="$PROJECT_DIR$/style/blocks/_rapture.scss" afterPath="$PROJECT_DIR$/style/blocks/_rapture.scss" />
-      <change beforePath="$PROJECT_DIR$/style/blocks/_slider.scss" afterPath="$PROJECT_DIR$/style/blocks/_slider.scss" />
-      <change beforePath="$PROJECT_DIR$/style/blocks/_testimonials.scss" afterPath="$PROJECT_DIR$/style/blocks/_testimonials.scss" />
-      <change beforePath="$PROJECT_DIR$/style/common/_mixes.scss" afterPath="$PROJECT_DIR$/style/common/_mixes.scss" />
-      <change beforePath="$PROJECT_DIR$/style/slick.css" afterPath="$PROJECT_DIR$/style/slick.css" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" afterPath="$PROJECT_DIR$/style/style.css" />
-      <change beforePath="$PROJECT_DIR$/style/style.css.map" afterPath="$PROJECT_DIR$/style/style.css.map" />
-      <change beforePath="$PROJECT_DIR$/style/style.scss" afterPath="$PROJECT_DIR$/style/style.scss" />
+      <change beforePath="$PROJECT_DIR$/style/blocks/_transform.scss" afterPath="$PROJECT_DIR$/style/blocks/_transform.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +19,8 @@
           <file leaf-file-name="_transform.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style/blocks/_transform.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="129">
-                  <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+                <state relative-caret-position="192">
+                  <caret line="113" column="24" lean-forward="false" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -82,10 +71,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style/blocks/_slider.scss" />
         <option value="$PROJECT_DIR$/style/slick.css" />
-        <option value="$PROJECT_DIR$/style/blocks/_transform.scss" />
         <option value="$PROJECT_DIR$/style/common/_mixes.scss" />
         <option value="$PROJECT_DIR$/style/blocks/_header.scss" />
         <option value="$PROJECT_DIR$/style/blocks/_testimonials.scss" />
+        <option value="$PROJECT_DIR$/style/blocks/_transform.scss" />
       </list>
     </option>
   </component>
@@ -195,12 +184,12 @@
       <workItem from="1572287740620" duration="10465000" />
       <workItem from="1572344979294" duration="18907000" />
       <workItem from="1572420111986" duration="32773000" />
-      <workItem from="1572524878700" duration="13026000" />
+      <workItem from="1572524878700" duration="13212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75171000" />
+    <option name="totallyTimeSpent" value="75357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -444,18 +433,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/blocks/_transform.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="176" column="43" lean-forward="true" selection-start-line="176" selection-start-column="43" selection-end-line="176" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/blocks/_transform.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="113" column="24" lean-forward="false" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
           <folding />
         </state>
       </provider>
