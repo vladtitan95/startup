@@ -1,0 +1,53 @@
+.awesome{
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+  padding-bottom: 116px;
+  &__subtitle{
+    font-size: 42px;
+    text-align: center;
+  }
+  &__span{
+    font-size: 18px;
+    color: #3D3F4C;
+    line-height: 28px;
+    width: 570px;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 50px;
+
+  }
+  &__button{
+    background-color: #1B1B1B;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+}
+@media (max-width: 768px) {
+  .awesome{
+   padding: 70px 0;
+    &__subtitle{
+      font-size: 28px;
+    }
+  }
+}
+@media (max-width: 628px) {
+  .awesome{
+    &__span{
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .awesome{
+    &__span{
+      font-size: 16px;
+    }
+    &__subtitle{
+      font-size: 22px;
+    }
+  }
+}

@@ -1,0 +1,90 @@
+.trade{
+  background-image: url("/src/img/Group 1.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 112px;
+
+  &__shops{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__group{
+    width: 470px;
+  }
+  &__span{
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color:#8A8783;
+    letter-spacing: 1px;
+    margin-bottom: 19px;
+  }
+  &__subtitle{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 46px;
+    line-height: 52px;
+  }
+  &__button{
+    height: 50px;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #55504F;
+    letter-spacing: 2px;
+    padding-right: 42px;
+    padding-left: 42px;
+    transition: 0.3s;
+    &:hover{
+      background-color: #fff;
+      color: #111;
+    }
+  }
+}
+@media (max-width: 979px) {
+  .trade{
+    &__shops{
+      justify-content: center;
+    }
+    &__group{
+      text-align: center;
+    }
+    &__group:last-child{
+      margin-top: 50px;
+      border-top: 1px solid;
+      padding-top: 50px;
+    }
+  }
+  
+}
+@media (max-width: 768px) {
+  .trade{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    &__subtitle{
+      font-size: 30px;
+    }
+  }
+
+}
+@media (max-width: 500px) {
+  .trade{
+    &__group{
+      width: 100%;
+    }
+    &__subtitle{
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+  }
+
+}
+@media (max-width: 320px) {
+  .trade {
+    width: 360px;
+  }
+}
