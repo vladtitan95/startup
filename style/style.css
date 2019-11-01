@@ -1253,25 +1253,193 @@ blockquote, figure, h1, h2, h3, h4, h5, h6, ol, p, ul {
   }
 }
 @media (max-width: 450px) {
-  /* line 101, blocks/_transform.scss */
+  /* line 102, blocks/_transform.scss */
   .transform__slider {
     width: 100%;
   }
-  /* line 104, blocks/_transform.scss */
+  /* line 105, blocks/_transform.scss */
   .transform__list {
     margin-right: 0;
   }
-  /* line 107, blocks/_transform.scss */
+  /* line 108, blocks/_transform.scss */
   .transform__item {
     width: 100%;
   }
-  /* line 110, blocks/_transform.scss */
+  /* line 111, blocks/_transform.scss */
   .transform__text {
     padding: 15px;
   }
-  /* line 113, blocks/_transform.scss */
+  /* line 114, blocks/_transform.scss */
   .transform__subtitle {
     line-height: 36px;
+  }
+}
+/* line 1, blocks/_all-power.scss */
+.all-power {
+  background-color: #1A1B1B;
+  border-radius: 30px;
+  padding-top: 80px;
+  margin-top: 104px;
+  text-align: center;
+  padding-bottom: 88px;
+  -webkit-box-shadow: 0 0 71px -35px #000000;
+          box-shadow: 0 0 71px -35px #000000;
+}
+/* line 9, blocks/_all-power.scss */
+.all-power__subtitle {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 19px;
+  font-size: 52px;
+}
+/* line 15, blocks/_all-power.scss */
+.all-power__span {
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-bottom: 82px;
+}
+/* line 23, blocks/_all-power.scss */
+.all-power__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/* line 28, blocks/_all-power.scss */
+.all-power__item {
+  position: relative;
+  width: 38%;
+  padding-left: 86px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 34px;
+  text-align: left;
+}
+/* line 36, blocks/_all-power.scss */
+.all-power__item:nth-child(1):before {
+  position: absolute;
+  content: '';
+  background-image: url("/src/img/Icon0.png");
+  width: 56px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  left: 0;
+  top: 0;
+}
+/* line 47, blocks/_all-power.scss */
+.all-power__item:nth-child(2):before {
+  position: absolute;
+  content: '';
+  background-image: url("/src/img/Icon1.png");
+  width: 44px;
+  height: 42px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  left: 0;
+  top: 0;
+}
+/* line 58, blocks/_all-power.scss */
+.all-power__item:nth-child(3):before {
+  position: absolute;
+  content: '';
+  background-image: url("/src/img/Icon2.png");
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  left: 0;
+  top: 0;
+}
+/* line 69, blocks/_all-power.scss */
+.all-power__item:nth-child(4):before {
+  position: absolute;
+  content: '';
+  background-image: url("/src/img/Icon3.png");
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  left: 0;
+  top: 0;
+}
+/* line 80, blocks/_all-power.scss */
+.all-power__designation {
+  display: block;
+  margin-bottom: 32px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #fff;
+  text-transform: uppercase;
+}
+/* line 89, blocks/_all-power.scss */
+.all-power__text {
+  font-size: 18px;
+  font-weight: 300;
+  color: #8B8D92;
+  line-height: 28px;
+}
+/* line 95, blocks/_all-power.scss */
+.all-power__looking {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+/* line 101, blocks/_all-power.scss */
+.all-power__button {
+  margin: 0 auto;
+  height: 50px;
+  background-color: #85E84D;
+  border-radius: 25px;
+  color: #1B1B1B;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-right: 46px;
+  padding-left: 46px;
+}
+
+@media (max-width: 843px) {
+  /* line 115, blocks/_all-power.scss */
+  .all-power__item {
+    width: 306px;
+    margin: 0 10px 0 10px;
+  }
+}
+@media (max-width: 843px) {
+  /* line 124, blocks/_all-power.scss */
+  .all-power__item {
+    width: 306px;
+    margin: 0 10px 34px 10px;
+  }
+}
+@media (max-width: 768px) {
+  /* line 134, blocks/_all-power.scss */
+  .all-power__subtitle {
+    font-size: 30px;
+    margin: 0 10px 19px 10px;
+  }
+}
+@media (max-width: 500px) {
+  /* line 142, blocks/_all-power.scss */
+  .all-power__subtitle {
+    font-size: 24px;
+  }
+  /* line 145, blocks/_all-power.scss */
+  .all-power__span {
+    font-size: 16px;
+  }
+  /* line 148, blocks/_all-power.scss */
+  .all-power__text {
+    font-size: 16px;
   }
 }
 
