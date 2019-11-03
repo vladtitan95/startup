@@ -1510,7 +1510,7 @@ blockquote, figure, h1, h2, h3, h4, h5, h6, ol, p, ul {
 }
 /* line 1, blocks/_trade.scss */
 .trade {
-  background-image: url("/src/img/Group 1.png");
+  background-image: url("/src/img/Group2.png");
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1611,6 +1611,265 @@ blockquote, figure, h1, h2, h3, h4, h5, h6, ol, p, ul {
 @media (max-width: 320px) {
   /* line 87, blocks/_trade.scss */
   .trade {
+    width: 360px;
+  }
+}
+/* line 1, blocks/_footer.scss */
+.footer {
+  background-color: #1A1B1B;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 34px;
+}
+/* line 6, blocks/_footer.scss */
+.footer__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 45%;
+  padding: 40px 0 40px 0;
+}
+/* line 12, blocks/_footer.scss */
+.footer__menu-item {
+  margin: 0 5px 0 5px;
+}
+/* line 15, blocks/_footer.scss */
+.footer__menu-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+}
+/* line 22, blocks/_footer.scss */
+.footer__wrapper {
+  border-bottom: 1px solid #3B3C3C;
+  border-top: 1px solid #3B3C3C;
+  padding-top: 60px;
+  padding-bottom: 106px;
+}
+/* line 28, blocks/_footer.scss */
+.footer__group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/* line 32, blocks/_footer.scss */
+.footer__group-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 400px;
+}
+/* line 38, blocks/_footer.scss */
+.footer__group-item {
+  width: 200px;
+  line-height: 40px;
+}
+/* line 42, blocks/_footer.scss */
+.footer__group-item:first-child {
+  width: 400px;
+}
+/* line 45, blocks/_footer.scss */
+.footer__group-link {
+  color: #8C8E92;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 52, blocks/_footer.scss */
+.footer__group-link:hover {
+  color: #fff;
+}
+/* line 56, blocks/_footer.scss */
+.footer__group-name {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  letter-spacing: 1px;
+  line-height: 40px;
+}
+/* line 66, blocks/_footer.scss */
+.footer__group-last {
+  width: 200px;
+  line-height: 40px;
+}
+/* line 70, blocks/_footer.scss */
+.footer__group-social {
+  width: 130px;
+}
+/* line 75, blocks/_footer.scss */
+.footer__social-block {
+  margin-top: 30px;
+}
+/* line 78, blocks/_footer.scss */
+.footer__social-link {
+  margin-right: 28px;
+}
+/* line 81, blocks/_footer.scss */
+.footer__social-link:last-child {
+  margin-right: 0;
+}
+/* line 85, blocks/_footer.scss */
+.footer__bottom-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 34px;
+}
+/* line 91, blocks/_footer.scss */
+.footer__bottom-item:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+}
+/* line 96, blocks/_footer.scss */
+.footer__bottom-item:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 100, blocks/_footer.scss */
+.footer__bottom-item {
+  font-size: 14px;
+  margin: 0 10px;
+}
+/* line 104, blocks/_footer.scss */
+.footer__bottom-img {
+  margin-top: 5px;
+}
+/* line 107, blocks/_footer.scss */
+.footer__bottom-link {
+  margin-left: 5px;
+  color: #fff;
+}
+
+@media (max-width: 1039px) {
+  /* line 115, blocks/_footer.scss */
+  .footer__group {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /* line 117, blocks/_footer.scss */
+  .footer__group-last {
+    line-height: 25px;
+  }
+  /* line 120, blocks/_footer.scss */
+  .footer__group-item {
+    line-height: 25px;
+  }
+}
+@media (max-width: 893px) {
+  /* line 129, blocks/_footer.scss */
+  .footer__bottom-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /* line 132, blocks/_footer.scss */
+  .footer__bottom-item:last-child {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  /* line 140, blocks/_footer.scss */
+  .footer__menu {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+  /* line 146, blocks/_footer.scss */
+  .footer__group-list {
+    width: 300px;
+  }
+  /* line 149, blocks/_footer.scss */
+  .footer__group-item {
+    width: 150px;
+  }
+  /* line 152, blocks/_footer.scss */
+  .footer__group-last {
+    width: 150px;
+  }
+}
+@media (max-width: 606px) {
+  /* line 161, blocks/_footer.scss */
+  .footer__bottom-item:nth-child(2) {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 400px) {
+  /* line 169, blocks/_footer.scss */
+  .footer__group {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /* line 171, blocks/_footer.scss */
+  .footer__group-list {
+    width: 280px;
+  }
+  /* line 174, blocks/_footer.scss */
+  .footer__group-item {
+    width: 140px;
+  }
+  /* line 177, blocks/_footer.scss */
+  .footer__group-last {
+    width: 140px;
+  }
+  /* line 180, blocks/_footer.scss */
+  .footer__group-social {
+    width: 140px;
+  }
+  /* line 183, blocks/_footer.scss */
+  .footer__group-link {
+    font-size: 12px;
+  }
+  /* line 190, blocks/_footer.scss */
+  .footer__bottom-item:last-child {
+    font-size: 14px;
+  }
+  /* line 193, blocks/_footer.scss */
+  .footer__bottom-item {
+    font-size: 12px;
+  }
+}
+@media (max-width: 320px) {
+  /* line 200, blocks/_footer.scss */
+  .footer {
     width: 360px;
   }
 }
