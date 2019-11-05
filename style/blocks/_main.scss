@@ -67,6 +67,13 @@
     }
   }
 }
+@media (max-width: 764px) {
+  .main{
+    &__block{
+      margin-top: 35px;
+    }
+  }
+}
 @media (max-width: 520px) {
   .main{
     &__lable{

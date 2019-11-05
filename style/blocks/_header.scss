@@ -34,6 +34,7 @@
     &-link{
       color: #707070;
       text-decoration: none;
+      transition: 0.3s;
       &:hover{
         color: #fff;
       }
@@ -69,6 +70,9 @@
       font-size: 14px;
       font-weight: 300;
       margin-top: 28px;
+      &:hover{
+        color: #fff;
+      }
     }
   }
   &__text{
@@ -122,8 +126,8 @@
     width: 80%;
   }
 }
-
 }
+
 @media (max-width: 549px) {
   .header{
     &__navbar{
@@ -131,6 +135,9 @@
     }
     &__login{
       margin-left: 50px;
+    }
+    &__authorization{
+      text-align: center;
     }
     &__title{
       font-size: 28px;

@@ -2,7 +2,6 @@
   background-color: #1A1B1B;
   width: 100%;
   margin: 0 auto;
-  padding-bottom: 34px;
   &__menu{
     display: flex;
     justify-content: space-between;
@@ -82,11 +81,12 @@
     margin-right:0;
   }
  &__bottom{
+   background-color: #1A1B1B;
+   padding: 35px 0;
    &-list{
      display: flex;
      justify-content:space-between ;
      flex-wrap: wrap;
-     margin-top: 34px;
    }
    &-item:last-child{
      display: flex;
